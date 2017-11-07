@@ -1,0 +1,22 @@
+{
+  "name": "contact_manager",
+  "version": "0.0.1",
+  "author": "NF",
+  "scripts": {
+    "go": "open http://localhost:3000; npm run server",
+    "server": "nodemon server.js",
+    "start": "npm run server"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "express": "4.13.3",
+    "fs": "0.0.2",
+    "json-beautify": "^1.0.1",
+    "path": "0.12.7",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "concurrently": "2.2.0"
+  }
+}
